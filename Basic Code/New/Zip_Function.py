@@ -11,7 +11,7 @@ id2 = [4, 5]
 rslt2 = zip(id2, name)
 print(list(rslt2))
 
-zipped = [(1, 'Imam'), (2, 'Hasan'), (3, 'Shawon')]
+zipped = [(1, 'Imam'), (2, 'Hasan'), (3, 'Shawon'),(4,'IHS')]
 
 unzipped = zip(*zipped)
 list1, list2 = list(unzipped)
